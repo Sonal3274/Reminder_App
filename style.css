@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(208, 208, 208);
+}
+
+.reminder-body {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.title {
+    top: 80%;
+    height: 200px;
+    background-color: rgb(252, 153, 72);
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.title>.row {
+    position: relative;
+    top: 50%;
+}
+
+.title h1 {
+    position: relative;
+    left: 10%;
+    font-size: 30pt;
+    color: black;
+}
+
+.title button {
+    position: relative;
+    right: 10%;
+    float: right;
+    color: black;
+    font-size: 45pt;
+    border: none;
+    width: 65px;
+    height: 65px;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: lighter;
+}
+
+.list {
+    width: 100%;
+    min-height: 65vh;
+    height: auto;
+    overflow-y: auto;
+    margin: 20px auto;
+}
+
+.reminder {
+    width: 80%;
+    left: 10%;
+    overflow-y: visible;
+    border: 1px solid rgb(228, 228, 228);
+    color: black;
+    background-color: rgb(228, 228, 228);
+    list-style: none;
+    line-height: 1.5rem;
+    margin: 2% auto;
+    position: relative;
+    padding: 5%;
+    display: -webkit-inline-box;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.actions {
+    width: 20%;
+}
+
+.text {
+    width: 80%;
+}
+
+.btn-complete {
+    color: #fff;
+    background-color: green;
+    border: none;
+    padding: 5%;
+}
+
+.btn-delete {
+    color: #fff;
+    background-color: red;
+    margin-left: 10px;
+    display: inline;
+    border: none;
+    padding: 5%;
+}
